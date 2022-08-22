@@ -1,0 +1,16 @@
+{
+  "extends": ["react-app"],
+
+  "overrides": [
+    {
+      "files": "*.mdx",
+      "extends": "plugin:mdx/recommended"
+    },
+    {
+      "files": ["**/*.stories.*"],
+      "rules": {
+        "import/no-anonymous-default-export": "off"
+      }
+    }
+  ]
+}
