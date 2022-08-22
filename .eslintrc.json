@@ -5,7 +5,8 @@
   "overrides": [
     {
       "files": "*.mdx",
-      "extends": "plugin:mdx/recommended"
+      "extends": "plugin:mdx/recommended",
+      "parser": "eslint-mdx"
     },
     {
       "files": ["**/*.stories.*"],
