@@ -1,6 +1,7 @@
 {
   "extends": ["react-app"],
-
+  "root": true,
+  "parser": "@typescript-eslint/parser",
   "overrides": [
     {
       "files": "*.mdx",
